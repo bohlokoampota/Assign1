@@ -1,0 +1,27 @@
+.image-pane {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-padding: 20px;
+}
+
+.thumbnail-view {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.thumbnail-view:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 0);
+}
+
+.back-button {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color: #555;
+}
